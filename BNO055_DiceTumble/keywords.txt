@@ -1,0 +1,59 @@
+#######################################
+# Syntax Coloring Map For BNO055_DiceTumble
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+BNO055_Motion	KEYWORD1
+BNO055_Orientation	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+init	KEYWORD2
+update	KEYWORD2
+moving	KEYWORD2
+stable	KEYWORD2
+on_table	KEYWORD2
+orientation	KEYWORD2
+gyroX	KEYWORD2
+gyroY	KEYWORD2
+gyroZ	KEYWORD2
+accelX	KEYWORD2
+accelY	KEYWORD2
+accelZ	KEYWORD2
+getAccelMagnitude	KEYWORD2
+getAccelChange	KEYWORD2
+getOrientationString	KEYWORD2
+getCalibration	KEYWORD2
+isCalibrated	KEYWORD2
+setMotionThreshold	KEYWORD2
+setStableThreshold	KEYWORD2
+setStableCount	KEYWORD2
+setOrientationThresholds	KEYWORD2
+setAxisRemap	KEYWORD2
+getAxisRemap	KEYWORD2
+resetTumbleDetection	KEYWORD2
+tumbled	KEYWORD2
+getTumbleAngle	KEYWORD2
+setTumbleThreshold	KEYWORD2
+getDebugDotProduct	KEYWORD2
+getDebugUpVector	KEYWORD2
+getDebugUpStart	KEYWORD2
+printDebugInfo	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+ORIENTATION_UNKNOWN	LITERAL1
+ORIENTATION_Z_UP	LITERAL1
+ORIENTATION_Z_DOWN	LITERAL1
+ORIENTATION_X_UP	LITERAL1
+ORIENTATION_X_DOWN	LITERAL1
+ORIENTATION_Y_UP	LITERAL1
+ORIENTATION_Y_DOWN	LITERAL1
+ORIENTATION_TILTED	LITERAL1
